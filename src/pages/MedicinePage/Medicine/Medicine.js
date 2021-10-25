@@ -2,7 +2,7 @@ import React from 'react';
 
 const Medicine = (props) => {
       // Let's destructuring the data from objects
-      const {medicineName, medicineImg, price, unitQnt} = props.medicine;
+      const {medicineName, medicineImg,unitQnt,price} = props.medicine;
 
       // Handle cart button
       const handleCart = () => {
@@ -15,11 +15,11 @@ const Medicine = (props) => {
                 </div>
                 <div className="medicineInfo">
                     <h3 className="medicineName">{medicineName}</h3>
-                    <span className="subInfo">Quantity : 1 Pata</span> &nbsp;&nbsp;
-                    <span className="subInfo">Price : $ {price}</span>&nbsp;&nbsp;
-                    <span className="subInfo">Piece : {unitQnt}P (Pata)</span>
+                    <span className="subInfo">Quantity : 10pcs</span> &nbsp;&nbsp;
+                    <span className="subInfo">Price : ${price} </span>&nbsp;&nbsp;
+                    <span className="subInfo">Piece : {unitQnt}P (pcs)</span>
                 </div>
-                <div className="medicineActio">
+                <div className="medicineAction">
                     <button onClick={handleCart} className="emergencyBtn fas fa-shopping-cart"></button>
                 </div>
             </div>

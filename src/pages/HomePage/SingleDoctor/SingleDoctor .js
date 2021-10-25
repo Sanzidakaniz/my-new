@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+// import './SingleDoctor.css';
 import './SingleDoctor.css';
 import { useHistory, useParams } from 'react-router';
 
@@ -19,7 +20,7 @@ const SingleDoctor = () => {
         .then(data => setDoctors(data));
     }, []);
 
-    // If doctors data avilaable then find the selected doctors
+    // If doctors data available then find the selected doctors
     if(doctors.length){
        const singledoctor = doctors.find(doctor => doctor.uniqueId === doctorUniqueId);
        
@@ -27,13 +28,13 @@ const SingleDoctor = () => {
        if(singledoctor){
         setDoctors(singledoctor);
       }else{
-          // If singledoctor is not found then redirect to the home page
+          // If single doctor is not found then redirect to the home page
           history.push('/');
       }
     }
 
     // Destructuring the single doctor data from object
-    const {doctorName, operation, consaltant, visitFee, availableTime, picture, institute, degree, experience} = doctors;
+    const {doctorName, operation, consultant, visitFee, availableTime, picture, institute, degree, experience} = doctors;
     
     // Handle booking serial
     const handleBookingSerial = () => {
@@ -53,7 +54,7 @@ const SingleDoctor = () => {
                                  <h2 className="singleDoctorName">Name : DR. {doctorName}</h2> <button className="emergencyBtn" onClick={handleBookingSerial}>Get Serial</button> 
                                  </div>
                                  <div className="dualInfo2">
-                                     <span className="subInfo">Consaltant :</span><br />
+                                     <span className="subInfo">Consultant :</span><br />
                                      <span className="subInfo">Operation :</span><br />
                                      <span className="subInfo">Visit :</span><br />
                                      <span className="subInfo">Experience :</span><br />
@@ -62,13 +63,13 @@ const SingleDoctor = () => {
                                      <span className="subInfo">Institute :</span>
                                  </div>
                                  <div className="dualInfo3">
-                                     <span className="subInfo">{consaltant}</span><br />
+                                     <span className="subInfo">{consultant}</span><br />
                                      <span className="subInfo">{operation}</span><br />
                                      <span className="subInfo">$ {visitFee}</span><br />
                                      <span className="subInfo">{experience} Years</span><br />
                                      <span className="subInfo"> {degree}</span><br />
                                      <span className="subInfo">{availableTime}</span><br />
-                                     <span className="institute">{institute}</span>
+                                   
                                  </div>
                                  
                              </div>

@@ -8,21 +8,16 @@
     box-shadow: 1px 1px 6px #77767654;
 }
 
-a#Logo {
-    color: #16a085;
-    font-size: 30px;
-}
-
 span.logoIcon {
     font-weight: 700;
     font-size: 30px;
 }
 
 span.logoText {
-    font-weight: 700;
+    font-weight: 500;
     font-family: 'Montserrat';
-    font-size: 30px;
-    margin-left: 5px;
+    font-size: 20px;
+    margin-right:5px;
 }
 
 a#basic-nav-dropdown {
@@ -35,15 +30,15 @@ a#basic-nav-dropdown {
 a#navMenuDropdown,
 a#navMenu{
     color: #050814;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 15px;
+    font-weight: 400;
     text-decoration: none;
     margin: 7px 0px;
 }
 
 a#navMenuDropdown,
 a#navMenu:hover {
-    color: #16a085;
+    color: #5895f1;
     transition: .3s;
 }
 
@@ -65,7 +60,7 @@ div#basic-navbar-nav {
 }
 
 .me-auto.navbar-nav {
-    margin: auto;
+    margin:auto;
 }
 
 .account{

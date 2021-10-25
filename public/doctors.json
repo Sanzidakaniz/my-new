@@ -1,86 +1,83 @@
-S M Enamul Hossain
+
 [
     {
       "uniqueId": "1",
-      "doctorName": "John Doe",
-      "operation": "200+",
-      "consaltant": "Neorology",
-      "visitFee": "20",
-      "availableTime": "7am - 12pm",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtw2eYA6vKvT2ob_yk8LYcLUIJMsOKAVl5SA&usqp=CAU",
-      "institute": "London medical college",
-      "degree": "MBBS",
+      "doctorName": "Fahmee Abyad",
+      "operation": "100+",
+      "consultant": "Neurologist",
+      "visitFee": "40",
+      "availableTime": "9am - 2pm",
+      "picture": "https://image.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg",
+      "institute": "Dhaka medical college",
+      "degree": "FCPS",
       "experience": "20",
-      "about": "Hello I'm John Doe neorology specialist. I have 20 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 95% sccess rate. Please book serial before coming."
+      "about": "Hello I'm Fahmee Abyad neurology specialist. I have 10 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 100+ operation experience with 90% success rate. Please book serial before coming."
     },
     {
       "uniqueId": "2",
-      "doctorName": "Shila Jaoyani",
-      "operation": "150+",
-      "consaltant": "Plastic Surgery",
-      "visitFee": "15",
-      "availableTime": "7pm - 10pm",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaYdufgSJjlWan97UR-N2tbjPpaggThZYVEQ&usqp=CAU",
-      "institute": "Thailand medical college",
+      "doctorName": "Taslima Saika",
+      "operation": "100+",
+      "consultant": "Cardiologist",
+      "visitFee": "50",
+      "availableTime": "9pm - 11pm",
+      "picture": "https://media.istockphoto.com/photos/african-ethnicity-female-doctor-with-a-face-mask-picture-id1277478866?b=1&k=20&m=1277478866&s=170667a&w=0&h=rjNovwD961yFXdpxiAVJwNNL0jzwnN0j05zuCucryTo=",
       "degree": "FCPS",
-      "experience": "17",
-      "about": "Hello I'm John Doe neorology specialist. I have 20 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 95% sccess rate. Please book serial before coming."
+      "experience": "10",
+      "about": "Hello I'm Taslima Saika Cardiology Specialist. I have 10 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 100+ operation experience with 90% success rate. Please book serial before coming."
 
     },
     {
       "uniqueId": "3",
-      "doctorName": "Jack Jone",
-      "operation": "240+",
-      "consaltant": "Medicine",
-      "visitFee": "13",
-      "availableTime": "5pm - 8pm",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhzm0Q-gCeH2_UFcPWaB9--f37p8XG8b3nLA&usqp=CAU",
-      "institute": "Jarmeny medical college",
+      "doctorName": "Ayman Mahrez",
+      "operation": "140+",
+      "consultant": "Covid Specialist",
+      "visitFee": "20",
+      "availableTime": "6pm - 8pm",
+      "picture": "https://media.istockphoto.com/photos/male-medical-professional-is-confident-in-studio-picture-id1201439096?b=1&k=20&m=1201439096&s=170667a&w=0&h=YXdCLIT-e-reXi8xY-iUkg1XR4_C6TSXrljaHiFmhEU=",
       "degree": "Medicine",
-      "experience": "40",
-      "about": "Hello I'm John Doe neorology specialist. I have 20 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 95% sccess rate. Please book serial before coming."
+      "experience": "5",
+      "about": "Hello I'm Ayman Mahrez Covid specialist. I have 5 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 140+ operation experience with 95% success rate. Please book serial before coming."
 
     },
     {
       "uniqueId": "4",
-      "doctorName": "Mery Bill",
-      "operation": "80+",
-      "consaltant": "Skin",
-      "visitFee": "16",
-      "availableTime": "5pm - 7.30pm",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMTs3WyiEvF-JzkHZVaFIVte7frqydvYpr7Q&usqp=CAU",
-      "institute": "China medical college",
+      "doctorName": "Humaira Taznin",
+      "operation": "60+",
+      "consultant": "Cardiologist",
+      "visitFee": "30",
+      "availableTime": "4pm - 6.30pm",
+      "picture": "https://media.istockphoto.com/photos/doctor-with-a-stethoscope-hand-in-her-pocket-closeup-of-a-female-picture-id1265438538?b=1&k=20&m=1265438538&s=170667a&w=0&h=9Deo8jS9LhC--tFcj_NciWy1Nz2L5rLHTAYXeAjq_f4=",
       "degree": "Skin",
       "experience": "10",
-      "about": "Hello I'm John Doe neorology specialist. I have 20 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 95% sccess rate. Please book serial before coming."
+      "about": "Hello I'm Humaira Taznin Cardiology specialist. I have 10 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 90% success rate. Please book serial before coming."
 
     },
+    
     {
       "uniqueId": "5",
-      "doctorName": "Abu Raihan",
-      "operation": "110+",
-      "consaltant": "Orthopedic",
-      "visitFee": "23",
-      "availableTime": "5pm - 9.30pm",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt9t1lEzWGTTjhoCbQgZ3gjDNZsdP-ZOiALg&usqp=CAU",
-      "institute": "Dhaka medical college",
-      "degree": "FCPS",
-      "experience": "12",
-      "about": "Hello I'm John Doe neorology specialist. I have 20 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 95% sccess rate. Please book serial before coming."
+      "doctorName": "Ishmam Samin",
+      "operation": "80+",
+      "consultant": "Physiology",
+      "visitFee": "50",
+      "availableTime": "4pm - 7pm",
+      "picture": "https://png.pngtree.com/thumb_back/fh260/background/20210907/pngtree-image-display-of-young-male-doctors-handwritten-folder-image_818466.jpg",
+      "institute": "Ireland medical college",
+      "degree": "MBBS",
+      "experience": "15",
+      "about": "Hello I'm Ishmam Samin Physiology specialist. I have 15 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 80+ operation experience with 95% success rate. Please book serial before coming."
 
     },
     {
       "uniqueId": "6",
-      "doctorName": "Henry Haid",
-      "operation": "90+",
-      "consaltant": "Physiology",
-      "visitFee": "17",
-      "availableTime": "3pm - 6pm",
-      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7PpUThdtq_IUCP4oZ1nnmqSbGYBBDS6odbA&usqp=CAU",
-      "institute": "Ireland medical college",
-      "degree": "MBBS",
-      "experience": "18",
-      "about": "Hello I'm John Doe neorology specialist. I have 20 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 200+ operation experience with 95% sccess rate. Please book serial before coming."
+      "doctorName": "Mahmud Bhuyian",
+      "operation": "70+",
+      "consultant": "Orthopedic",
+      "visitFee": "40",
+      "availableTime": "5pm - 9.30pm",
+      "picture": "https://thumbs.dreamstime.com/b/male-doctor-portrait-isolated-white-background-56744085.jpg",
+      "degree": "FCPS",
+      "experience": "9",
+      "about": "Hello I'm Mahmud Bhuyian Orthopedic specialist. I have 9 years experience with different patient and different cases. My rules is first listen then understand then feel and search and last give medicine. I also have 70+ operation experience with 95% success rate. Please book serial before coming."
 
     }
-  ]
+]

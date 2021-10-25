@@ -5,6 +5,8 @@ section.footerSection {
 .footerArea {
     background: whitesmoke;
     padding-top: 30px;
+    margin-right: 20px;
+   
 }
 
 .footerNavbar {
@@ -18,11 +20,12 @@ h3.itemName {
 }
 
 .secondFooterBox {
-    padding-left: 35px;
+    padding-left: 50px;
+   
 }
 
 a#menu {
-    color: #16a085;
+    color: #000707;
     text-decoration: none;
     font-weight: 500;
 }

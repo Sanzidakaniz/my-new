@@ -5,7 +5,7 @@ const FeaturedDoctors = (props) => {
     // Use history for changing route
     const history = useHistory();
     // Destructuring the data from props
-    const {uniqueId, doctorName, consaltant, visitFee, picture} = props.doctors;
+    const {uniqueId, doctorName, consultant, visitFee, picture} = props.doctors;
     
     const handleSeeDetail = id => {
           history.push(`/doctor/serialBook/${id}`);
@@ -16,8 +16,9 @@ const FeaturedDoctors = (props) => {
             <img src={picture} alt="doctorImage" />
             <h2 className="doctorName">{doctorName}</h2>
             <div className="dualinfo">
-                <span className="det">Spe : {consaltant}</span>
-                <span className="det">Visit Fee : $ {visitFee}</span>
+                <span className="det">{consultant}</span>
+               
+                <span className="det">Visit Fee : ${visitFee}</span>
             </div>
               <button onClick={() => handleSeeDetail(uniqueId)} className="regularBtn">About&nbsp;<i className="fas fa-eye"></i></button>
         </div>

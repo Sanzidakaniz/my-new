@@ -4,7 +4,7 @@ import Header from './pages/SharedComponent/Header/Header';
 import Login from './pages/AccountPage/LoginPage/Login';
 import Reagistration from './pages/AccountPage/RegistrationPage/Reagistration';
 import Home from './pages/HomePage/Home';
-import SingleDoctor from './pages/HomePage/SingleDoctor/SingleDoctor';
+import SingleDoctor from './pages/HomePage/SingleDoctor/SingleDoctor ';
 import SingleService from './pages/HomePage/SingleService/SingleService';
 import AuthProvider from './Context/AuthProvider';
 import Appointment from './pages/AppointmentPage/Appointment/Appointment';

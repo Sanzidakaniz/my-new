@@ -4,38 +4,38 @@ import './MedicineCorner.css';
 
 const MedicineCorner = () => {
       // Use state for storing medicine data
-      const [medicins, setMedicins] = useState([]);
+      const [medicines, setMedicines] = useState([]);
 
       // Use effect for loading medicine data from fake data json files
       useEffect( () => {
-          fetch('./medicineData.json')
+          fetch('../../medicineData.json')
           .then(res => res.json())
-          .then(data => setMedicins(data));
+          .then(data => setMedicines(data));
       }, []);
 
     return (
        <section>
            <div className="medicineCornerPage">
                <div className="container">
-                  <div className="row justify-content-arround">
+                  <div className="row justify-content-around">
                    <div className="sectionTitle">
-                       <h1 className="title">Welcome to <span className="highlight">Medicine Corner</span></h1>
+                       <h1 className="title">Medicine Section</h1>
                    </div>
                    <div className="col-lg-4 col-md-4 col-sm-12">
                        <div className="medicineSideBar">
                          <div className="sideBarBlock">
                            <span className="subInfo">Search Medicine</span> <br />
-                           <input type="text" placeholder="Search your medicine..." />
+                           <input type="text" placeholder="search medicine" />
                         </div>
                          <div className="sideBarBlock">
-                           <span className="subInfo">Filter by company name</span> <br />
-                           <input type="text" placeholder="Enter medicine company..." />
+                           <span className="subInfo">Search by company name</span> <br />
+                           <input type="text"  placeholder="company name"/>
                         </div>
                          </div>
                        </div>
                        <div className="col-lg-7 col-md-7 col-sm-12">
                    {
-                       medicins.map(medicine => <Medicine key={medicine.uniqueId} medicine={medicine} />)
+                       medicines.map(medicine => <Medicine key={medicine.uniqueId} medicine={medicine} />)
                    }
                    </div>
                      </div>

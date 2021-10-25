@@ -1,0 +1,31 @@
+[
+    {
+      "uniqueId": "1",
+      "medicineName": "Bizoran",
+      "medicineImg": "https://i0.wp.com/zainazon.com/wp-content/uploads/2019/12/Bizoran-1.jpg?fit=500%2C500&ssl=1",
+      "unitQnt": "10",
+      "price": "7"
+    },
+    {
+      "uniqueId": "2",
+      "medicineName": "Acifix",
+      "medicineImg": "https://api.medquicker.com/storage/media-gallery/images/607aae07cef44.png",
+      "price": "5",
+      "unitQnt": "10"
+    },
+    {
+      "uniqueId": "3",
+      "medicineName": "Amlodipine ",
+      "medicineImg": "https://5.imimg.com/data5/SELLER/Default/2020/9/EG/JG/CK/112301964/amodipine-tablets-ip-5-mg-500x500.jpg",
+      "price": "12",
+      "unitQnt": "10"
+    },
+   
+    {
+      "uniqueId": "4",
+      "medicineName": "Ciprocine",
+      "medicineImg": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpoPa3lF7bYi9KbSIIgdh3XIhcWqiz1ojP9Pp8rcv9Jk5O5U5HXAB64OxMWNp5IVLYZ6A&usqp=CAU",
+      "price": "3",
+      "unitQnt": "10"
+    }
+  ]

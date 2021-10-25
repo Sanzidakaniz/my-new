@@ -8,44 +8,37 @@ const Footer = () => {
            <div className="footerArea">
                <div className="container">
                    <div className="row">
-                       <div className="col-lg-3 col-md-3 col-sm-3">
-                           <div className="firstFooterBox">
-                               <div className="logo">
-                        <NavLink id="Logo" to="/"><span className="logoIcon fas fa-heartbeat"><span className="logoText">Medicoz</span></span></NavLink>
-                        <p className="themeDesc">We're a online hospital or clinic service provider. Our hospital name is "MEDICOZ Clinic". We try to best care our patient and collect best consaltant of the country.</p>
-                               </div>
-                           </div>
-                       </div>
-                       <div className="col-lg-3 col-md-3 col-sm-3">
+                     
+                       <div className="col-lg-4 col-md-3 col-sm-3">
                            <div className="secondFooterBox">
                     <div className="footerNavbar">
                     <h3 className="itemName">Pages</h3>
                         <NavLink id="menu" to="/home"><span className="menus">Home</span></NavLink>
                         <NavLink id="menu" to="/about"><span className="menus">About</span></NavLink>
-                        <NavLink id="menu" to="/doctors"><span className="menus">Doctors</span></NavLink>
-                        <NavLink id="menu" to="/emergency"><span className="menus">Emmergency</span></NavLink>
-                        <NavLink id="menu" to="/account"><span className="menus">Account</span></NavLink>
+                        <NavLink id="menu" to="/medicineCorner"><span className="menus">Medicine Section</span></NavLink>
+                        
+                        <NavLink id="menu" to="/account"><span className="menus">Login</span></NavLink>
                                </div>
                            </div>
                        </div>
-                       <div className="col-lg-3 col-md-3 col-sm-3">
+                       <div className="col-lg-4 col-md-3 col-sm-3">
                            <div className="secondFooterBox">
                     <div className="footerNavbar">
                     <h3 className="itemName">Address</h3>
-                       <span className="add">Address : Lakshmipur, Bangladesh</span>
-                       <span className="add">Mobile : 01611859722</span>
-                       <span className="add">Web : <a href="https://rafix.netlify.app" target="blank">Rafix</a></span>
+                       <span className="add"> Chittagong,  Bangladesh</span>
+                       <span className="add">Mobile : 3456987140</span>
+                      
                                </div>
                            </div>
                        </div>
-                       <div className="col-lg-3 col-md-3 col-sm-3">
-                           <div className="secondFooterBox">
+                       <div className="col-lg-4 col-md-3 col-sm-3">
+                           <div className="secondFooterBox"> 
                     <div className="footerNavbar">
-                    <h3 className="itemName">Brances</h3>
-                       <span className="add">Lakshmipur</span>
+                    <h3 className="itemName">Branches</h3>
+                       <span className="add">Rangpur</span>
+                       <span className="add">Chadpur</span>
                        <span className="add">Dhaka</span>
-                       <span className="add">Chattogram</span>
-                       <span className="add">Feni</span>
+                       <span className="add">Rajshahi</span>
                                </div>
                            </div>
                        </div>

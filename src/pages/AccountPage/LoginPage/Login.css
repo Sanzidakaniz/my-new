@@ -1,17 +1,20 @@
 .loginArea {
     padding: 160px 0px;
-    background: #e4f5ff;
+    background: rgb(188, 225, 240);
 }
 
 .loginForm {
     padding: 30px 15px;
-    border: 2px solid #16a085;
+    border: 2px solid #617cf5ec;
     border-radius: 10px;
     text-align: center;
 }
 
 .imageDemo img {
     width: 80%;
+}
+.doctorName{
+    color:rgb(153, 151, 151);
 }
 
 input {
@@ -21,7 +24,8 @@ input {
     border-radius: 5px;
     border: 1px solid #16a085;
     outline: none;
-    color: #16a085;
+    /* color: #16a085; */
+    color: black;
 }
 
 span.apiProvider img {
@@ -36,7 +40,7 @@ button.submitBtn {
     margin-top: 10px;
     border: none;
     color: white;
-    background: #16a085;
+    background: #2490f5;
     border-radius: 5px;
     font-size: 20px;
     font-weight: 500;

@@ -11,7 +11,7 @@ const useFirebase = () => {
     const auth = getAuth();
 
     // Make auth provider
-    const googleProvider = new GoogleAuthProvider(); // Google atuh provider
+    const googleProvider = new GoogleAuthProvider(); // Google auth provider
     const githubProvider = new GithubAuthProvider(); // Github auth provider
 
     // Handle google signin and sign up after clicking the button
